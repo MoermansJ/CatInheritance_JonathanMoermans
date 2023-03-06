@@ -12,7 +12,7 @@ public class MainApp {
         SiameseCat mSC1 = new SiameseCat();
         SiameseCat mSC2 = new SiameseCat('L', 'S', "GRAY", 3.9, "mSC2", 3, 456, 456);
         TurkishVanCat mTVC1 = new TurkishVanCat();
-        TurkishVanCat mTVC2 = new TurkishVanCat('M', 'L', "BROWN", 1.7, "mTVC2", 2, 567, 567);
+        TurkishVanCat mTVC2 = new TurkishVanCat('M', 'L', "BROWN", 1.7, "mTVC2", 2, 567, 567, "Sjarel");
 
         Felis[] myFelisArray = {mAMC1, mAMC2, mNFC1, mNFC2, mPC1, mPC2, mSC1, mSC2, mTVC1, mTVC2};
 

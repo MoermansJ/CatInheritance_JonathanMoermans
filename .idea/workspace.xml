@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="068532a8-6b18-4dab-af14-b6529bb7bedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CatInheritance_JonathanMoermans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Acinonyx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/AndeanMountainCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Felis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/NorwegianForestCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Panthera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/PersianCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/SiameseCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/TurkishVanCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/Felis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Felis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

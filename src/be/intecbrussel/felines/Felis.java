@@ -85,12 +85,12 @@ public abstract class Felis extends Animal {
 
     //custom methods
     public void miauw() {
-        System.out.println("Miauw!");
+        makeNoise("Miauw");
     }
 
     public void miauw(int times) {
         for (int i = times; i > 0; i--) {
-            this.miauw();
+            this.makeNoise("Miauw");
         }
     }
 

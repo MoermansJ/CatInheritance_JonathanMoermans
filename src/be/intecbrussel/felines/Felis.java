@@ -16,10 +16,10 @@ public abstract class Felis extends Animal {
 
     //constructors
     public Felis() {
-        this('M', 'M', "BLACK", 2.0, "DEFAULT_FELIS_NAME", 5, 999, 999);
+        this(CoatsAndSizes.MEDIUM, CoatsAndSizes.MEDIUM, "BLACK", 2.0, "DEFAULT_FELIS_NAME", 5, 999, 999);
     }
 
-    public Felis(char size, char coat, String colour, double weight, String name, int age, int shelterNo, int badgeNo) {
+    public Felis(CoatsAndSizes size, CoatsAndSizes coat, String colour, double weight, String name, int age, int shelterNo, int badgeNo) {
         super(size, coat, colour, weight);
 
         setName(name);
@@ -90,7 +90,7 @@ public abstract class Felis extends Animal {
 
     public void miauw(int times) {
         for (int i = times; i > 0; i--) {
-            this.makeNoise("Miauw");
+            miauw();
         }
     }
 
@@ -112,6 +112,7 @@ public abstract class Felis extends Animal {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Felis felis)) return false;
+        if (this.isAlive() != ((Felis) o).isAlive()) return false;
         return getShelterNo() == felis.getShelterNo() && getBadgeNo() == felis.getBadgeNo();
     }
 

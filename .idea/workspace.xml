@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="068532a8-6b18-4dab-af14-b6529bb7bedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/CoatsAndSizes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/Acinonyx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Acinonyx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/AndeanMountainCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/AndeanMountainCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/Felis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Felis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/NorwegianForestCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/NorwegianForestCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/Panthera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/Panthera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/PersianCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/PersianCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/SiameseCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/SiameseCat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/felines/TurkishVanCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/felines/TurkishVanCat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

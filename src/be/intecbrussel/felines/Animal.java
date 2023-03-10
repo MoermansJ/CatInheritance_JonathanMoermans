@@ -1,23 +1,25 @@
 package be.intecbrussel.felines;
 
+import javax.crypto.Cipher;
+
 public abstract class Animal {
     //fields
-    static int animalCount;
+    protected static int animalCount;
 
 
     //properties
-    private char size;
-    private char coat;
+    private CoatsAndSizes size;
+    private CoatsAndSizes coat;
     private String colour;
     private double weight;
 
 
     //constructors
     public Animal() {
-        this('m', 'm', "black", 3.5);
+        this(CoatsAndSizes.MEDIUM, CoatsAndSizes.MEDIUM, "black", 3.5);
     }
 
-    public Animal(char size, char coat, String colour, double weight) {
+    public Animal(CoatsAndSizes size, CoatsAndSizes coat, String colour, double weight) {
         setSize(size);
         setCoat(coat);
         setColour(colour);
@@ -36,18 +38,18 @@ public abstract class Animal {
     }
 
     public char getSize() {
-        return size;
+        return size.getCharRepresentation();
     }
 
-    public void setSize(char size) {
+    public void setSize(CoatsAndSizes size) {
         this.size = size;
     }
 
     public char getCoat() {
-        return coat;
+        return coat.getCharRepresentation();
     }
 
-    public void setCoat(char coat) {
+    public void setCoat(CoatsAndSizes coat) {
         this.coat = coat;
     }
 

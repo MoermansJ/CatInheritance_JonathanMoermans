@@ -4,10 +4,7 @@ public abstract class Acinonyx extends Animal {
     //properties
     private double speed;
 
-
-    //no constructors because this class is abstract and has no subclasses
-
-
+    
     //getters & setters
     public double getSpeed() {
         return speed;

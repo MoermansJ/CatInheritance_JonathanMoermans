@@ -7,11 +7,11 @@ public class TurkishVanCat extends Felis {
 
     //constructors
     public TurkishVanCat() {
-        super();
-        setNickname("DEFAULT_NICKNAME");
+//        super();
+        setNickname("DEFAULT_TURKISHVANCAT_NICKNAME");
     }
 
-    public TurkishVanCat(char size, char coat, String colour, double weight, String name, int age, int shelterNo, int badgeNo, String nickname) {
+    public TurkishVanCat(CoatsAndSizes size, CoatsAndSizes coat, String colour, double weight, String name, int age, int shelterNo, int badgeNo, String nickname) {
         super(size, coat, colour, weight, name, age, shelterNo, badgeNo);
         setNickname(nickname);
     }

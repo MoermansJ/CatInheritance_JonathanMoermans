@@ -1,28 +1,30 @@
 package be.intecbrussel.felines;
 
+import java.sql.SQLOutput;
+
 public class MainApp {
     public static void main(String[] args) {
         //Maak dan minstens 7 katten die erven van Felis. Stop ze in een array en print de contents van de toString() methode af.
-        AndeanMountainCat mAMC1 = new AndeanMountainCat();
-        AndeanMountainCat mAMC2 = new AndeanMountainCat('L', 'L', "BLACK", 4.1, "mAMC2", 2, 123, 123);
-        NorwegianForestCat mNFC1 = new NorwegianForestCat();
-        NorwegianForestCat mNFC2 = new NorwegianForestCat('S', 'S', "ORANGE", 4.2, "mNFC2", 3, 234, 234);
-        PersianCat mPC1 = new PersianCat();
-        PersianCat mPC2 = new PersianCat('S', 'L', "GREEN", 1.9, "mPC2", 6, 345, 345);
-        SiameseCat mSC1 = new SiameseCat();
-        SiameseCat mSC2 = new SiameseCat('L', 'S', "GRAY", 3.9, "mSC2", 3, 456, 456);
-        TurkishVanCat mTVC1 = new TurkishVanCat();
-        TurkishVanCat mTVC2 = new TurkishVanCat('M', 'L', "BROWN", 1.7, "mTVC2", 2, 567, 567, "Sjarel");
+        AndeanMountainCat myAndeanMountainCat1 = new AndeanMountainCat();
+        AndeanMountainCat myAndeanMountainCat2 = new AndeanMountainCat(CoatsAndSizes.LARGE, CoatsAndSizes.LARGE, "BLACK", 4.1, "mAMC2", 2, 123, 123);
+        NorwegianForestCat myNorwegianForestCat1 = new NorwegianForestCat();
+        NorwegianForestCat myNorwegianForestCat2 = new NorwegianForestCat(CoatsAndSizes.SMALL, CoatsAndSizes.SMALL, "ORANGE", 4.2, "mNFC2", 3, 234, 234);
+        PersianCat myPersianCat1 = new PersianCat();
+        PersianCat myPersianCat2 = new PersianCat(CoatsAndSizes.SMALL, CoatsAndSizes.LARGE, "GREEN", 1.9, "mPC2", 6, 345, 345);
+        SiameseCat mySiameseCat1 = new SiameseCat();
+        SiameseCat mySiameseCat2 = new SiameseCat(CoatsAndSizes.LARGE, CoatsAndSizes.SMALL, "GRAY", 3.9, "mSC2", 3, 456, 456);
+        TurkishVanCat myTurkishVanCat1 = new TurkishVanCat();
+        TurkishVanCat myTurkishVanCat2 = new TurkishVanCat(CoatsAndSizes.MEDIUM, CoatsAndSizes.LARGE, "BROWN", 1.7, "mTVC2", 2, 567, 567, "Sjarel");
 
-        Felis[] myFelisArray = {mAMC1, mAMC2, mNFC1, mNFC2, mPC1, mPC2, mSC1, mSC2, mTVC1, mTVC2};
+        Felis[] myFelisArray = {myAndeanMountainCat1, myAndeanMountainCat2, myNorwegianForestCat1, myNorwegianForestCat2, myPersianCat1, myPersianCat2, mySiameseCat1, mySiameseCat2, myTurkishVanCat1, myTurkishVanCat2};
 
         for (Felis f : myFelisArray) {
             System.out.println(f);
         }
 
-        //Default values for badgeNo and shelterNo are defined in the Felis class (objects created with no-args superconstructor)
-        System.out.println(mPC1.equals(mSC1)); //true
-        System.out.println(mPC2.equals(mSC2)); //false
+        System.out.println(myPersianCat1.equals(mySiameseCat1)); //true -> badgeNo, ShelterNo both equal default values and getAlive both return true
+        System.out.println(myPersianCat1.equals(myAndeanMountainCat1));//false -> badgeNo ShelterNo both equal default values and getAlive returns false for AndeanMountainCat
+        System.out.println(myPersianCat2.equals(mySiameseCat2)); //false -> different badgeNo and shelterNo
 
         System.out.println("Amount of vaccinated cats: " + Felis.getNoOfVaccinatedCats()); //non-extinct cats
         System.out.println("AnimalCount: " + Animal.getAnimalCount()); //all cats
